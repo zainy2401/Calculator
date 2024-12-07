@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿using System.Text.RegularExpressions;
 
 namespace Calculator
 {
@@ -6,68 +6,69 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            float num1 = 0;
-            float num2 = 0;
-            bool valid = false;
-            Console.Write("Enter the first number: ");
-            while (!valid)
+            bool endApp = false;
+            Console.WriteLine("Console Calculator in C#\r");
+            Console.WriteLine("------------------------\n");
+
+            while (!endApp)
             {
-                try { num1 = float.Parse(Console.ReadLine()); valid = true; }
-                catch (FormatException e)
+                string? numInput1 = "";
+                string? numInput2 = "";
+                double result = 0;
+
+                Console.Write("Type a number, and then press Enter: ");
+                numInput1 = Console.ReadLine();
+                double cleanNum1 = 0;
+                while(!double.TryParse(numInput1, out cleanNum1))
                 {
-                    Console.Write("Invalid input try again: ");
+                    Console.Write("This is not a valid input. Please enter a numeric value: ");
+                    numInput1 = Console.ReadLine();
                 }
-            }
 
-            valid = false;
-            Console.Write("Enter the second number: ");
-            while (!valid)
-            {
-                try { num2 = float.Parse(Console.ReadLine()); valid = true; }
-                catch (FormatException e)
+                Console.Write("Type another number, and then press Enter: ");
+                numInput2 = Console.ReadLine();
+                double cleanNum2 = 0;
+                while(!double.TryParse(numInput2, out cleanNum2))
                 {
-                    Console.Write("Invalid input try again: ");
+                    Console.Write("This is not a valid input. Please enter a numeric value: ");
+                    numInput2 = Console.ReadLine();
                 }
-            }
 
-            Console.WriteLine("What would you like to do with these numbers?");
-            Console.WriteLine("\ta - Addition");
-            Console.WriteLine("\ts - Subtraction");
-            Console.WriteLine("\tm - Multiplication");
-            Console.WriteLine("\td - Division");
-            string[] chars = { "a", "s", "m", "d" };
-            string option = Console.ReadLine();
-            while (!Array.Exists(chars, element => element == option)) 
-            {
-                Console.Write("Please enter a valid letter option and press enter: ");
-                option = Console.ReadLine();
-            }
+                Console.WriteLine("Choose an operator from the following list:");
+                Console.WriteLine("\ta - Add");
+                Console.WriteLine("\ts - Subtract");
+                Console.WriteLine("\tm - Multiplication");
+                Console.WriteLine("\td - Division");
 
-            switch (option)
-            {
-                case "a":
-                    Console.WriteLine("{0} + {1} = {2}", num1, num2, (num1 + num2));
-                    break;
-                case "s":
-                    Console.WriteLine("{0} - {1} = {2}", num1, num2, (num1 - num2));
-                    break;
-                case "m":
-                    Console.WriteLine("{0} * {1} = {2}", num1, num2, (num1 * num2));
-                    break;
-                case "d":
-                    valid = false;
-                    while(num2 == 0 || !valid)
+                string? op = Console.ReadLine();
+
+                if (op == null || ! Regex.IsMatch(op, "[a|s|m|d]"))
+                { 
+                    Console.WriteLine("Error: unrecognised input.");
+                }
+                else
+                {
+                    try
                     {
-                        Console.WriteLine("Enter a non-zero divisor: ");
-                        try { num2 = float.Parse(Console.ReadLine()); valid = true; valid = true; }
-                        catch (Exception e)
+                        result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
+                        if (double.IsNaN(result))
                         {
-                            Console.WriteLine("Invalid, try again: ");
+                            Console.WriteLine("This operation will result in a mathematical error.\n");
                         }
+                        else Console.WriteLine("Your result: {0:0.##}\n", result);
                     }
-                    Console.WriteLine("{0} / {1} = {2}", num1, num2, (num1 / num2));
-                    break;
+                    catch(Exception e)
+                    {
+                        Console.WriteLine("Oh no! An exception occured trying to do the math\n - Details: " + e.Message);
+                    }
+                }
+                Console.WriteLine("--------------------------\n");
+
+                Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+                if (Console.ReadLine() == "n") endApp = true;
+                Console.WriteLine("\n");
             }
+            return;
 
         }
     }

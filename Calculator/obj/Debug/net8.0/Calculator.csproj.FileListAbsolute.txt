@@ -12,3 +12,4 @@ C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\Ca
 C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\Calculator\obj\Debug\net8.0\Calculator.pdb
 C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
 C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\Calculator\obj\Debug\net8.0\ref\Calculator.dll
+C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
