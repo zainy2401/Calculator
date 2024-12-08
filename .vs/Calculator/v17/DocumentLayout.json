@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{45180B4F-6EC3-4AD2-BF1B-18AC8B84E5DC}|Calculator\\Calculator.csproj|c:\\users\\zaiqu\\documents\\zprofessional\\c# academy\\console projects\\calculator\\calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45180B4F-6EC3-4AD2-BF1B-18AC8B84E5DC}|Calculator\\Calculator.csproj|solutionrelative:calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45180B4F-6EC3-4AD2-BF1B-18AC8B84E5DC}|Calculator\\Calculator.csproj|c:\\users\\zaiqu\\documents\\zprofessional\\c# academy\\console projects\\calculator\\calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45180B4F-6EC3-4AD2-BF1B-18AC8B84E5DC}|Calculator\\Calculator.csproj|solutionrelative:calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,22 +28,9 @@
               "RelativeDocumentMoniker": "CalculatorLibrary\\CalculatorLibrary.cs",
               "ToolTip": "C:\\Users\\zaiqu\\Documents\\zProfessional\\C# Academy\\Console Projects\\Calculator\\CalculatorLibrary\\CalculatorLibrary.cs",
               "RelativeToolTip": "CalculatorLibrary\\CalculatorLibrary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCUAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T21:49:35.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Calculator.cs",
-              "DocumentMoniker": "C:\\Users\\zaiqu\\Documents\\zProfessional\\C# Academy\\Console Projects\\Calculator\\Calculator\\Calculator.cs",
-              "RelativeDocumentMoniker": "Calculator\\Calculator.cs",
-              "ToolTip": "C:\\Users\\zaiqu\\Documents\\zProfessional\\C# Academy\\Console Projects\\Calculator\\Calculator\\Calculator.cs",
-              "RelativeToolTip": "Calculator\\Calculator.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T21:07:13.715Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +41,7 @@
               "RelativeDocumentMoniker": "Calculator\\Program.cs",
               "ToolTip": "C:\\Users\\zaiqu\\Documents\\zProfessional\\C# Academy\\Console Projects\\Calculator\\Calculator\\Program.cs",
               "RelativeToolTip": "Calculator\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwC0AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T22:06:58.761Z",
               "EditorCaption": ""

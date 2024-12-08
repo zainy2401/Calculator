@@ -1,0 +1,5 @@
+C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.AssemblyInfo.cs
+C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.sourcelink.json
