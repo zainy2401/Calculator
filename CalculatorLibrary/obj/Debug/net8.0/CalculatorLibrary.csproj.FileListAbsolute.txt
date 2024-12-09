@@ -3,3 +3,4 @@ C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\Ca
 C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.AssemblyInfo.cs
 C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
 C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.sourcelink.json
+C:\Users\zaiqu\Documents\zProfessional\C# Academy\Console Projects\Calculator\CalculatorLibrary\obj\Debug\net8.0\CalculatorLibrary.csproj.AssemblyReference.cache
